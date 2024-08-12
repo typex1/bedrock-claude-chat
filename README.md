@@ -1,6 +1,6 @@
 # Bedrock Claude Chat
 
-![](https://github.com/aws-samples/bedrock-claude-chat/actions/workflows/cdk.yml/badge.svg)
+![](https://github.com/typex1/bedrock-claude-chat/actions/workflows/cdk.yml/badge.svg)
 
 > [!Warning]
 > If you are using old version (e.g. `v0.4.x`) and wish to use the latest version, refer [migration guide](./docs/migration/V0_TO_V1.md). Without any care, **ALL DATA IN Aurora cluster WILL BE DESTROYED, and NO LONGER USERS CANNOT USE EXISTING BOTS WITH KNOWLEDGE AND CREATE NEW BOTS**.
@@ -76,7 +76,7 @@ By using the [Agent functionality](./docs/AGENT.md), your chatbot can automatica
 - Run deployment via following commands. If you want to specify the version to deploy or need to apply security policies, please specify the appropriate parameters from [Optional Parameters](#optional-parameters).
 
 ```sh
-git clone https://github.com/aws-samples/bedrock-claude-chat.git
+git clone https://github.com/typex1/bedrock-claude-chat.git
 cd bedrock-claude-chat
 chmod +x bin.sh
 ./bin.sh
@@ -139,7 +139,7 @@ It's an architecture built on AWS managed services, eliminating the need for inf
 
 Super-easy Deployment uses [AWS CodeBuild](https://aws.amazon.com/codebuild/) to perform deployment by CDK internally. This section describes the procedure for deploying directly with CDK.
 
-- Please have UNIX, Docker and a Node.js runtime environment. If not, you can also use [Cloud9](https://github.com/aws-samples/cloud9-setup-for-prototyping)
+- Please have UNIX, Docker and a Node.js runtime environment. If not, you can also use [Cloud9](https://github.com/typex1/cloud9-setup-for-prototyping)
 
 > [!Important]
 > If there is insufficient storage space in the local environment during deployment, CDK bootstrapping may result in an error. If you are running in Cloud9 etc., we recommend expanding the volume size of the instance before deploying.
@@ -147,7 +147,7 @@ Super-easy Deployment uses [AWS CodeBuild](https://aws.amazon.com/codebuild/) to
 - Clone this repository
 
 ```
-git clone https://github.com/aws-samples/bedrock-claude-chat
+git clone https://github.com/typex1/bedrock-claude-chat
 ```
 
 - Install npm packages
@@ -328,7 +328,7 @@ See [here](./docs/RAG.md).
 
 ## Contributors
 
-[![bedrock claude chat contributors](https://contrib.rocks/image?repo=aws-samples/bedrock-claude-chat&max=1000)](https://github.com/aws-samples/bedrock-claude-chat/graphs/contributors)
+[![bedrock claude chat contributors](https://contrib.rocks/image?repo=typex1/bedrock-claude-chat&max=1000)](https://github.com/typex1/bedrock-claude-chat/graphs/contributors)
 
 ## License
 
